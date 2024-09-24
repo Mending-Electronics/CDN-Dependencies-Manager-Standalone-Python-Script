@@ -104,18 +104,18 @@ def fetch_latest_versions(dependencies):
 dependencies = list_cdn_dependencies(os.getcwd())
 fetch_latest_versions(dependencies)
 
-package_json = {
+packages_json = {
     'dependencies': dependencies
 }
 
-with open('package.json', 'w') as f:
-    json.dump(package_json, f, indent=2)
+with open('packages.json', 'w') as f:
+    json.dump(packages_json, f, indent=2)
 
-print('package.json created with CDN dependencies')
+print('packages.json created with CDN dependencies')
 
 # Create a Tkinter window with a table to display the data
 def display_dependencies():
-    with open('package.json', 'r') as f:
+    with open('packages.json', 'r') as f:
         data = json.load(f)
 
     root = tk.Tk()
@@ -165,8 +165,8 @@ def display_dependencies():
         with open(dep_file, 'w') as f:
             f.write(content)
 
-        # Save the updated dependencies to the package.json file
-        with open('package.json', 'w') as f:
+        # Save the updated dependencies to the packages.json file
+        with open('packages.json', 'w') as f:
             json.dump(data, f, indent=2)
 
         # Update the table
