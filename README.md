@@ -16,7 +16,7 @@ CDN Dependency Checker is a standalone Python script designed to scan your proje
 ## Usage
 1. Run the script:
     ```bash
-    python cdn_checker.py
+    python '#CDN Dependencies Tool (Standalone).py'
     ```
 2. (Hide process) Check each files in your project directory to list used CDN dependencies in each file. Requests the CDN APIs to get the latest versions of the packages, comparing them to the used CDN package versions. Generates a `packages.json`.
 3. Review the listed CDN dependencies and their versions in a table.
