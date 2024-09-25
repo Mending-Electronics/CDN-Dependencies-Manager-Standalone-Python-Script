@@ -1,0 +1,6 @@
+*.html linguist-language=HTML
+*.py linguist-language=Python
+*.js linguist-language=JavaScript
+*.jsx linguist-language=React
+*.vue linguist-language=Vue
+*.php linguist-language=PHP
