@@ -1,0 +1,256 @@
+{
+  "dependencies": {
+    "CDN cdnjs Samples\\components\\JavaScript Component File.js": [
+      {
+        "name": "bootstrap",
+        "version": "5.2.3",
+        "new": "5.3.3",
+        "file": "bootstrap.min.css",
+        "cdn": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css",
+        "source": "cdnjs.cloudflare.com"
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.2.3",
+        "new": "5.3.3",
+        "file": "bootstrap.bundle.min.js",
+        "cdn": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js",
+        "source": "cdnjs.cloudflare.com"
+      }
+    ],
+    "CDN cdnjs Samples\\components\\JSX Component File.jsx": [
+      {
+        "name": "bootstrap",
+        "version": "5.2.3",
+        "new": "5.3.3",
+        "file": "bootstrap.min.css",
+        "cdn": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css",
+        "source": "cdnjs.cloudflare.com"
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.2.3",
+        "new": "5.3.3",
+        "file": "bootstrap.bundle.min.js",
+        "cdn": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js",
+        "source": "cdnjs.cloudflare.com"
+      }
+    ],
+    "CDN cdnjs Samples\\components\\Python Django Component.py": [
+      {
+        "name": "bootstrap",
+        "version": "5.2.3",
+        "new": "5.3.3",
+        "file": "bootstrap.min.css",
+        "cdn": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css",
+        "source": "cdnjs.cloudflare.com"
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.2.3",
+        "new": "5.3.3",
+        "file": "bootstrap.bundle.min.js",
+        "cdn": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js",
+        "source": "cdnjs.cloudflare.com"
+      }
+    ],
+    "CDN cdnjs Samples\\components\\Python Flask Component.py": [
+      {
+        "name": "bootstrap",
+        "version": "5.2.3",
+        "new": "5.3.3",
+        "file": "bootstrap.min.css",
+        "cdn": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css",
+        "source": "cdnjs.cloudflare.com"
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.2.3",
+        "new": "5.3.3",
+        "file": "bootstrap.bundle.min.js",
+        "cdn": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js",
+        "source": "cdnjs.cloudflare.com"
+      }
+    ],
+    "CDN cdnjs Samples\\components\\Vue Component File.vue": [
+      {
+        "name": "bootstrap",
+        "version": "5.2.3",
+        "new": "5.3.3",
+        "file": "bootstrap.min.css",
+        "cdn": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css');",
+        "source": "cdnjs.cloudflare.com"
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.2.3",
+        "new": "5.3.3",
+        "file": "bootstrap.bundle.min.js",
+        "cdn": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js",
+        "source": "cdnjs.cloudflare.com"
+      }
+    ],
+    "CDN cdnjs Samples\\templates\\HTML template.html": [
+      {
+        "name": "bootstrap",
+        "version": "5.2.3",
+        "new": "5.3.3",
+        "file": "bootstrap.min.css",
+        "cdn": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css",
+        "source": "cdnjs.cloudflare.com"
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.2.3",
+        "new": "5.3.3",
+        "file": "bootstrap.bundle.min.js",
+        "cdn": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js",
+        "source": "cdnjs.cloudflare.com"
+      }
+    ],
+    "CDN cdnjs Samples\\templates\\PHP template.php": [
+      {
+        "name": "bootstrap",
+        "version": "5.2.3",
+        "new": "5.3.3",
+        "file": "bootstrap.min.css",
+        "cdn": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css",
+        "source": "cdnjs.cloudflare.com"
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.2.3",
+        "new": "5.3.3",
+        "file": "bootstrap.bundle.min.js",
+        "cdn": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js",
+        "source": "cdnjs.cloudflare.com"
+      }
+    ],
+    "CDN jsdelivr Samples\\components\\JavaScript Component File.js": [
+      {
+        "name": "bootstrap",
+        "version": "5.1.2",
+        "new": "5.3.3",
+        "file": "bootstrap.min.css",
+        "cdn": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css",
+        "source": "cdn.jsdelivr.net"
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.1.2",
+        "new": "5.3.3",
+        "file": "bootstrap.min.js",
+        "cdn": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js",
+        "source": "cdn.jsdelivr.net"
+      }
+    ],
+    "CDN jsdelivr Samples\\components\\JSX Component File.jsx": [
+      {
+        "name": "bootstrap",
+        "version": "5.1.2",
+        "new": "5.3.3",
+        "file": "bootstrap.min.css",
+        "cdn": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css",
+        "source": "cdn.jsdelivr.net"
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.1.2",
+        "new": "5.3.3",
+        "file": "bootstrap.min.js",
+        "cdn": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js",
+        "source": "cdn.jsdelivr.net"
+      }
+    ],
+    "CDN jsdelivr Samples\\components\\Python Django Component.py": [
+      {
+        "name": "bootstrap",
+        "version": "5.1.2",
+        "new": "5.3.3",
+        "file": "bootstrap.min.css",
+        "cdn": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css",
+        "source": "cdn.jsdelivr.net"
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.1.2",
+        "new": "5.3.3",
+        "file": "bootstrap.min.js",
+        "cdn": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js",
+        "source": "cdn.jsdelivr.net"
+      }
+    ],
+    "CDN jsdelivr Samples\\components\\Python Flask Component.py": [
+      {
+        "name": "bootstrap",
+        "version": "5.1.2",
+        "new": "5.3.3",
+        "file": "bootstrap.min.css",
+        "cdn": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css",
+        "source": "cdn.jsdelivr.net"
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.1.2",
+        "new": "5.3.3",
+        "file": "bootstrap.min.js",
+        "cdn": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js",
+        "source": "cdn.jsdelivr.net"
+      }
+    ],
+    "CDN jsdelivr Samples\\components\\Vue Component File.vue": [
+      {
+        "name": "bootstrap",
+        "version": "5.1.2",
+        "new": "5.3.3",
+        "file": "bootstrap.min.css",
+        "cdn": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css');",
+        "source": "cdn.jsdelivr.net"
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.1.2",
+        "new": "5.3.3",
+        "file": "bootstrap.min.js",
+        "cdn": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js",
+        "source": "cdn.jsdelivr.net"
+      }
+    ],
+    "CDN jsdelivr Samples\\templates\\HTML template.html": [
+      {
+        "name": "bootstrap",
+        "version": "5.1.2",
+        "new": "5.3.3",
+        "file": "bootstrap.min.css",
+        "cdn": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css",
+        "source": "cdn.jsdelivr.net"
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.1.2",
+        "new": "5.3.3",
+        "file": "bootstrap.min.js",
+        "cdn": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js",
+        "source": "cdn.jsdelivr.net"
+      }
+    ],
+    "CDN jsdelivr Samples\\templates\\PHP template.php": [
+      {
+        "name": "bootstrap",
+        "version": "5.1.2",
+        "new": "5.3.3",
+        "file": "bootstrap.min.css",
+        "cdn": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css",
+        "source": "cdn.jsdelivr.net"
+      },
+      {
+        "name": "bootstrap",
+        "version": "5.1.2",
+        "new": "5.3.3",
+        "file": "bootstrap.min.js",
+        "cdn": "https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js",
+        "source": "cdn.jsdelivr.net"
+      }
+    ]
+  }
+}

@@ -1,10 +1,10 @@
-# CDN Dependency Checker
+# CDN Dependency Manager Tool
 
 ## Overview
-CDN Dependency Checker is a standalone Python script designed to scan your project directory for *.html, *.js, *.php, and *.py files, listing all CDN dependencies used. It generates a `packages.json` file similar to a Node.js project and queries common CDN APIs to fetch the latest versions of these packages. Users can easily update the CDN versions in their project files by clicking the patch button.
+CDN Dependency Checker is a standalone Python script designed to scan your project directory files, listing all CDN dependencies used. It generates a `packages.json` file similar to a Node.js project and queries common CDN APIs to fetch the latest versions of these packages. Users can easily update the CDN versions in their project files by clicking the patch button.
 
 ## Features
-- Scans *.html, *.js, *.php, and *.py files for CDN dependencies.
+- Scans CDN dependencies in *.html, *.js, *.jsx, *.vue, *.php, and *.py files.
 - Generates a `packages.json` file with the listed dependencies.
 - Fetches the latest versions of CDN packages from common APIs.
 - Allows users to patch CDN versions with a simple click.
@@ -25,11 +25,21 @@ CDN Dependency Checker is a standalone Python script designed to scan your proje
 
 ## Sample of Captures
 
-![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Tool-Standalone-Python-Script/main/captures/capture1.png "Capture")
+Patch only one project file CDN version
 
-![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Tool-Standalone-Python-Script/main/captures/capture2.png "Capture")
+![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Manager-Standalone-Python-Script/main/captures/capture1.png "Capture")
 
-![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Tool-Standalone-Python-Script/main/captures/capture3.png "Capture")
+![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Manager-Standalone-Python-Script/main/captures/capture2.png "Capture")
+
+
+Patch All project files CDN's versions
+
+![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Manager-Standalone-Python-Script/main/captures/capture3.png "Capture")
+
+![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Manager-Standalone-Python-Script/main/captures/capture4.png "Capture")
+
+![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Manager-Standalone-Python-Script/main/captures/capture5.png "Capture")
+
 
 ## Sample of 'packages.json' output
 ```bash
