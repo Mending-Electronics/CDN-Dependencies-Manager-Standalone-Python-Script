@@ -20,7 +20,7 @@ CDN Dependency Manager is a standalone Python script designed to scan your proje
 ## Usage
 1. Run the script:
     ```bash
-    python '#CDN Dependencies Tool (Standalone).py'
+    python '# CDN Dependency Manager (Standalone).py'
     ```
 2. The script will check each file in your project directory to list the CDN dependencies used in each file. It will request the CDN APIs to get the latest versions of the packages and compare them to the used CDN package versions. It will then generate a `packages.json` file.
 3. Review the listed CDN dependencies and their versions in a table.
