@@ -9,6 +9,10 @@ CDN Dependency Checker is a standalone Python script designed to scan your proje
 - Fetches the latest versions of CDN packages from common APIs.
 - Allows users to patch CDN versions with a simple click.
 
+**CDNs Supported :**
+- https://cdnjs.cloudflare.com
+- https://cdn.jsdelivr.net
+
 ## Installation
 1. Install Python 3.xx if you haven't already.
 2. Download the script and place it in the root directory of your project.
@@ -25,14 +29,17 @@ CDN Dependency Checker is a standalone Python script designed to scan your proje
 
 ## Sample of Captures
 
-Patch only one project file CDN version
+************
+
+**Patch only one project file CDN version**
 
 ![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Manager-Standalone-Python-Script/main/captures/capture1.png "Capture")
 
 ![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Manager-Standalone-Python-Script/main/captures/capture2.png "Capture")
 
+*************
 
-Patch All project files CDN's versions
+**Patch All project files CDN's versions**
 
 ![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Manager-Standalone-Python-Script/main/captures/capture3.png "Capture")
 
