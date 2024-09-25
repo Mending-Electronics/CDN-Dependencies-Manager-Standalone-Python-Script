@@ -1,7 +1,7 @@
 # CDN Dependency Manager Tool
 
 ## Overview
-CDN Dependency Checker is a standalone Python script designed to scan your project directory files, listing all CDN dependencies used. It generates a `packages.json` file similar to a Node.js project and queries common CDN APIs to fetch the latest versions of these packages. Users can easily update the CDN versions in their project files by clicking the patch button.
+CDN Dependency Manager is a standalone Python script designed to scan your project directory files and list all CDN dependencies used. It generates a `packages.json` file similar to a Node.js project and queries common CDN APIs to fetch the latest versions of these packages. Users can easily update the CDN versions in their project files by clicking the patch button.
 
 ## Features
 - Scans CDN dependencies in *.html, *.js, *.jsx, *.vue, *.php, and *.py files.
@@ -9,7 +9,7 @@ CDN Dependency Checker is a standalone Python script designed to scan your proje
 - Fetches the latest versions of CDN packages from common APIs.
 - Allows users to patch CDN versions with a simple click.
 
-**CDNs Supported :**
+**CDNs Supported:**
 - https://cdnjs.cloudflare.com
 - https://cdn.jsdelivr.net
 
@@ -22,34 +22,32 @@ CDN Dependency Checker is a standalone Python script designed to scan your proje
     ```bash
     python '#CDN Dependencies Tool (Standalone).py'
     ```
-2. (Hide process) Check each files in your project directory to list used CDN dependencies in each file. Requests the CDN APIs to get the latest versions of the packages, comparing them to the used CDN package versions. Generates a `packages.json`.
+2. The script will check each file in your project directory to list the CDN dependencies used in each file. It will request the CDN APIs to get the latest versions of the packages and compare them to the used CDN package versions. It will then generate a `packages.json` file.
 3. Review the listed CDN dependencies and their versions in a table.
 4. Click the patch button to update the CDN versions in your project files.
 
-
-## Sample of Captures
+## Sample Captures
 
 ************
 
 **Patch only one project file CDN version**
 
-![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Manager-Standalone-Python-Script/main/captures/capture1.png "Capture")
+![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependency-Manager-Standalone-Python-Script/main/captures/capture1.png "Capture")
 
-![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Manager-Standalone-Python-Script/main/captures/capture2.png "Capture")
+![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependency-Manager-Standalone-Python-Script/main/captures/capture2.png "Capture")
 
 *************
 
-**Patch All project files CDN's versions**
+**Patch all project files CDN versions**
 
-![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Manager-Standalone-Python-Script/main/captures/capture3.png "Capture")
+![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependency-Manager-Standalone-Python-Script/main/captures/capture3.png "Capture")
 
-![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Manager-Standalone-Python-Script/main/captures/capture4.png "Capture")
+![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependency-Manager-Standalone-Python-Script/main/captures/capture4.png "Capture")
 
-![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependencies-Manager-Standalone-Python-Script/main/captures/capture5.png "Capture")
+![Capture](https://raw.githubusercontent.com/Mending-Electronics/CDN-Dependency-Manager-Standalone-Python-Script/main/captures/capture5.png "Capture")
 
-
-## Sample of 'packages.json' output
-```bash
+## Sample 'packages.json' Output
+```json
 {
   "dependencies": {
     "index.html": [
@@ -83,8 +81,6 @@ CDN Dependency Checker is a standalone Python script designed to scan your proje
   }
 }
 ```
-
-
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.

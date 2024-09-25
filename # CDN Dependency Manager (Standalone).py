@@ -8,6 +8,16 @@ import requests
 import tkinter as tk
 from tkinter import ttk
 import tkinter.messagebox as messagebox
+import webbrowser
+
+
+
+def open_github_preview():
+    html_raw_url = "https://raw.githubusercontent.com/Mending-Electronics/Vue-App-CDN.JS-Github-API-Frameworks-info/refs/heads/main/app/index.html"
+    html_preview_url = f"https://htmlpreview.github.io/?{html_raw_url}"
+    print(html_preview_url)
+    webbrowser.open(html_preview_url)
+
 
 def list_cdn_dependencies(dir):
     dependencies = {}
@@ -136,7 +146,7 @@ def display_dependencies():
         data = json.load(f)
 
     root = tk.Tk()
-    root.title("CDN Dependencies Manager")
+    root.title("CDN Dependency Manager")
     root.configure(bg='#0f2537')  # Set window background color
 
     try:
@@ -148,20 +158,8 @@ def display_dependencies():
 
 
     # Labels
-    label = tk.Label(root, text="CDN Dependencies Manager", font=("Arial",20), bg='#0f2537', fg='white').pack(pady=15)
+    label = tk.Label(root, text="CDN Dependency Manager", font=("Verdana",20), bg='#0f2537', fg='white').pack(pady=15)
 
-    # Labels
-    text_widget = tk.Text(root, bg='#0f2537', fg='white', font=("Arial", 12), width=70, height=1)
-    text_widget.insert(tk.END, "Double click on ")
-    text_widget.insert(tk.END, " Patch It now ! ", ("patch_style"))
-    text_widget.insert(tk.END, " text to patch the latest cdn version in the project file.")
-
-    text_widget.tag_configure("patch_style", font=("Arial", 10), background='yellow', foreground='black')
-    text_widget.tag_configure("center", justify='center')
-
-    text_widget.tag_add("center", "1.0", "end")
-
-    text_widget.pack()
 
     # Add a "Patch All!" button
     style = ttk.Style()
@@ -248,7 +246,7 @@ def display_dependencies():
             if 'mismatch' in tree.item(item, 'tags'):
                 patch_dependency(item=item, show_message=False)
         # Show a message box to inform the user that all CDNs were correctly patched
-        messagebox.showinfo("Patch Successful", "All Project files were successfully patched to the latest CDN versions.")
+        messagebox.showinfo("Patch Successful", "All project files were successfully patched to the latest CDN versions.")
 
     patch_all_button.config(command=patch_all)
 
@@ -256,6 +254,28 @@ def display_dependencies():
     tree.bind('<Double-1>', patch_dependency)
 
     tree.pack(expand=True, fill='both')
+
+    # window footer
+
+    # Labels
+    text_widget = tk.Text(root, bg='#0f2537', fg='white', font=("Arial", 12), width=70, height=1)
+    text_widget.insert(tk.END, "Double click on ")
+    text_widget.insert(tk.END, " Patch It now ! ", ("patch_style"))
+    text_widget.insert(tk.END, " to patch the latest cdn version in the project file.")
+
+    text_widget.tag_configure("patch_style", font=("Arial", 10), background='yellow', foreground='black')
+    text_widget.tag_configure("center", justify='center')
+
+    text_widget.tag_add("center", "1.0", "end")
+
+    text_widget.pack()
+    
+    me_cdn_picker_link_btn = ttk.Button(root, text=" Mending-Electronics CDN Picker ", style="TButton", command=open_github_preview)
+    me_cdn_picker_link_btn.pack(pady=5)
+
+    label = tk.Label(root, text="Mending-Electronics - 2024", font=("Verdana", 10), bg='#0f2537', fg='white').pack(pady=5)
+
+    
     root.mainloop()
 
 display_dependencies()
